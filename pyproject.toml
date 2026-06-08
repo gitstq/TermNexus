@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "termnexus"
+version = "1.0.0"
+description = "🧠 TermNexus - AI Terminal Workspace Intelligence Engine | AI终端工作区智能引擎"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "TermNexus Team", email = "termnexus@example.com"}
+]
+keywords = ["terminal", "workspace", "ai", "agent", "multiplexer", "cli", "productivity"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Terminals",
+    "Topic :: Utilities",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+termnexus = "termnexus.cli:main"
+tnx = "termnexus.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/gitstq/TermNexus"
+Repository = "https://github.com/gitstq/TermNexus"
+Issues = "https://github.com/gitstq/TermNexus/issues"
